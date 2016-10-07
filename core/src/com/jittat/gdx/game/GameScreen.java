@@ -13,7 +13,8 @@ public class GameScreen extends ScreenAdapter{
 	private Texture pacmanImg;
     private Pacman pacman;
     private World world;
-	 
+    private WorldRenderer worldRenderer;
+    
     public GameScreen(PacmanGame pacmanGame) {
         this.pacmanGame = pacmanGame;
         pacmanImg = new Texture("pacman.jpg");

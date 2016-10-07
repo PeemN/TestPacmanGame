@@ -15,6 +15,8 @@ public class WorldRenderer {
 	        this.world = world;
 	 
 	        pacmanImg = new Texture("pacman.png");
-	    }
-
+	 }
+     public void render(float delta) {
+    	 
+     }
 }
