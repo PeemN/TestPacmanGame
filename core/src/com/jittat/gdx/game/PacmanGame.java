@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class PacmanGame extends  Game {
 	public SpriteBatch batch;
+	
 
 	@Override
 	public void create () {

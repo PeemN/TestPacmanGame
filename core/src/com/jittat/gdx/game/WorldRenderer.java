@@ -15,13 +15,13 @@ public class WorldRenderer {
 	 public WorldRenderer(PacmanGame pacmanGame, World world) {
 	        this.pacmanGame = pacmanGame;
 	        batch = pacmanGame.batch;
+	        
 	        this.world = world;
 	 
 	        pacmanImg = new Texture("pacman.png");
 	 }
      public void render(float delta) {
      	SpriteBatch batch = pacmanGame.batch;
-
      	batch.begin();
      	Vector2 pos = pacman.getPosition();
         batch.draw(pacmanImg, pos.x, pos.y);        
